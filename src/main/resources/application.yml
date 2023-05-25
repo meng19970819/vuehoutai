@@ -1,0 +1,20 @@
+
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql:///wetechproject2
+
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+
+redis:
+  port: 6379
+  host: localhost
+
+logging:
+  level:
+    com.wetech: debug
+server:
+  port: 9999
+
